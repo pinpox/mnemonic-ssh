@@ -1,5 +1,7 @@
 # Mnemonic SSH
 
+[![Go](https://github.com/pinpox/mnemonic-ssh/actions/workflows/go.yml/badge.svg)](https://github.com/pinpox/mnemonic-ssh/actions/workflows/go.yml)
+
 A simple tool that generates deterministic SSH keypairs from mnemonic phrases
 and passphrases using [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)/[BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) standards.
 
