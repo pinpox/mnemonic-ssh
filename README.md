@@ -1,14 +1,19 @@
 # Mnemonic SSH
 
 A simple tool that generates deterministic SSH keypairs from mnemonic phrases
-and passphrases using BIP39/BIP32 standards.
+and passphrases using [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)/[BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) standards.
+
+> [!NOTE]
+> This tool was primarily made for my personal use. I'm sure there are other
+> tools that can already do this, but I wanted something simple enough to be
+> fully understood easily.
 
 ## Features
 
-- Generate SSH ED25519 keypairs from BIP39 mnemonic phrases
+- Generate SSH ED25519 keypairs from [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) mnemonic phrases
 - Support for optional passphrases for additional security
 - Deterministic key generation - same mnemonic + passphrase always produces the same keys
-- Compatible with standard BIP39 word lists
+- Compatible with standard [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) word lists
 - Supports both 12-word and 24-word mnemonics
 - Outputs SSH keys in standard OpenSSH format
 
