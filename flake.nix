@@ -31,7 +31,7 @@
     {
       packages = forAllSystems (system: {
         default = nixpkgsFor.${system}.buildGoModule {
-          pname = "ssh-mnemonic";
+          pname = "mnemonic-ssh";
           inherit version;
           src = ./.;
           vendorHash = "sha256-rRLyZ+7aqNd8nNdpa2RTauDhbDwBcHbDrSLlsGaTMGU=";
